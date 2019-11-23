@@ -964,10 +964,10 @@ void process(void) {
 
 
 
-// Buffer to store print lines to Puttom_y
+// Buffer to store print lines to Putty
 char buffer2[400];
 
-// For usb communication with Puttom_y and Teensy
+// For usb communication with Putty and Teensy
 void serial_comms(void) {
 int16_t char_code = usb_serial_getchar();
 
