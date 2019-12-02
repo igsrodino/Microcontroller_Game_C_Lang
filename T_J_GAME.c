@@ -616,7 +616,7 @@ void draw_cheese(void) {
 
 
 
-// To draw cheese every 2 seconds
+// To draw cheese every 2 seconds, doesn't work perfectly
 void update_cheese(void){
 	if (pause == false){
 		if (secs >= if_cheese){
