@@ -1080,7 +1080,6 @@ int main(void) {
 			game_over();
 		break;
 		}
-	}
-							            
+	}							            
 	return 0;
 }
